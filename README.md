@@ -1,4 +1,4 @@
-# appsec-pipeline
+# AppSec pipeline
 AppSec pipeline on Kubernetes with Jenkins
 
 **NB:** This Minikube/Helm setup is not suitable for production use.
