@@ -26,7 +26,7 @@ AppSec pipeline on Kubernetes with Jenkins
 ## Designing the pipeline
 For information on pipeline syntax w.r.t. running pods and containers, visit https://github.com/jenkinsci/kubernetes-plugin.
 
-Sample pipeline:
+Sample Jenkinsfile:
 ```
 podTemplate(label: 'appsec', 
             name: 'appsec', 
@@ -53,4 +53,9 @@ podTemplate(label: 'appsec',
         }
     }
 }
+```
+
+Alternatively, the pipeline can be created declaratively:
+```
+...
 ```
