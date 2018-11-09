@@ -55,7 +55,7 @@ podTemplate(label: 'appsec',
 }
 ```
 
-Alternatively, the pipeline can be created declaratively:
+Alternatively, the pipeline can be created declaratively.
 ```
-...
+This is a TODO, feel free to contribute :)
 ```
